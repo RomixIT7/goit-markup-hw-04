@@ -159,7 +159,7 @@ address {
   background-position: center;
   background-size: cover;
   padding: 188px 0;
-  min-width: 1440px;
+  max-width: 1440px;
 }
 
 .solutions-container {
@@ -341,9 +341,9 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-list-item:hover .team-icons-list-link,
-.team-list-item:focus .team-icons-list-link,
-.team-list-item:active .team-icons-list-link {
+.team-list-item .team-icons-list-link:hover,
+.team-list-item .team-icons-list-link:focus,
+.team-list-item .team-icons-list-link:active {
   background-color: #404bbf;
 }
 
@@ -455,7 +455,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -474,7 +473,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   display: inline-block;
 }
 
